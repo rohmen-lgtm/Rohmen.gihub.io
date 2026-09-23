@@ -84,4 +84,186 @@
       box-shadow: 0 3px 12px rgba(0,0,0,0.06);
     }
 
-    .
+    .welcome h2 {
+      margin-top: 0;
+      color: #087f45;
+    }
+
+    .section-title {
+      margin: 30px 0 15px;
+      color: #087f45;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+    }
+
+    .icon {
+      font-size: 32px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      color: #087f45;
+    }
+
+    .card p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .read {
+      display: inline-block;
+      margin-top: 8px;
+      color: #087f45;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #202124;
+      color: #ddd;
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: 40px;
+    }
+
+    footer strong {
+      color: white;
+    }
+
+    @media (max-width: 650px) {
+      .logo {
+        font-size: 32px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      nav a {
+        white-space: nowrap;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">💰 INFO CUAN</div>
+  <div class="tagline">
+    Informasi Digital, Teknologi & Peluang Online
+  </div>
+</header>
+
+<nav>
+  <a href="#">Beranda</a>
+  <a href="#internet">Internet</a>
+  <a href="#ai">AI</a>
+  <a href="#aplikasi">Aplikasi</a>
+  <a href="#usaha">Usaha</a>
+</nav>
+
+<main>
+
+  <section class="welcome">
+    <h2>Selamat Datang di Info Cuan 👋</h2>
+
+    <p>
+      Info Cuan adalah website yang membahas berbagai informasi
+      seputar internet, teknologi, AI, aplikasi, dan usaha kecil.
+    </p>
+
+    <p>
+      Kami menyajikan informasi dengan bahasa sederhana agar mudah
+      dipahami dan bermanfaat untuk kehidupan sehari-hari.
+    </p>
+  </section>
+
+  <h2 class="section-title">📚 Kategori Informasi</h2>
+
+  <div class="grid">
+
+    <article class="card" id="internet">
+      <div class="icon">🌐</div>
+      <h3>Tips Internet</h3>
+      <p>
+        Informasi dan tips menggunakan internet dengan aman,
+        nyaman, dan lebih bermanfaat.
+      </p>
+      <a class="read" href="#">Baca selengkapnya →</a>
+    </article>
+
+    <article class="card" id="ai">
+      <div class="icon">🤖</div>
+      <h3>AI & Teknologi</h3>
+      <p>
+        Informasi mengenai kecerdasan buatan dan perkembangan
+        teknologi yang menarik untuk diketahui.
+      </p>
+      <a class="read" href="#">Baca selengkapnya →</a>
+    </article>
+
+    <article class="card" id="aplikasi">
+      <div class="icon">📱</div>
+      <h3>Aplikasi</h3>
+      <p>
+        Mengenal berbagai aplikasi dan layanan digital
+        yang dapat membantu aktivitas sehari-hari.
+      </p>
+      <a class="read" href="#">Baca selengkapnya →</a>
+    </article>
+
+    <article class="card" id="usaha">
+      <div class="icon">💡</div>
+      <h3>Tips Usaha</h3>
+      <p>
+        Ide dan informasi sederhana tentang usaha kecil
+        serta pemanfaatan teknologi untuk bisnis.
+      </p>
+      <a class="read" href="#">Baca selengkapnya →</a>
+    </article>
+
+  </div>
+
+  <section class="welcome" style="margin-top:25px;">
+    <h2>💰 Tentang Info Cuan</h2>
+
+    <p>
+      Dunia digital terus berkembang. Info Cuan hadir untuk
+      membantu pembaca menemukan informasi digital dengan cara
+      yang sederhana dan mudah dipahami.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>INFO CUAN</strong></p>
+
+  <p>
+    Informasi sederhana tentang internet, teknologi,
+    AI, aplikasi, dan usaha.
+  </p>
+
+  <p>© 2026 Info Cuan</p>
+</footer>
+
+</body>
+      </html>
